@@ -1,0 +1,232 @@
+[
+  {
+    "id": "player_001",
+    "name": "Shakib Al Hasan",
+    "rating": 90,
+    "batting_hand": "Left",
+    "role": "All-rounder",
+    "price": 2000000,
+    "nationality": "Bangladesh",
+    "pic_url": "https://www.espncricinfo.com/cricketers/mushfiqur-rahim-56029/photos"
+  },
+  {
+    "id": "player_002",
+    "name": "Tamim Iqbal",
+    "rating": 85,
+    "batting_hand": "Left",
+    "role": "Batsman",
+    "price": 1800000,
+    "nationality": "Bangladesh",
+    "pic_url": "https://www.espncricinfo.com/cricketers/tamim-iqbal-56194/photos"
+  },
+  {
+    "id": "player_003",
+    "name": "Mustafizur Rahman",
+    "rating": 88,
+    "batting_hand": "Left",
+    "role": "Bowler",
+    "price": 1500000,
+    "nationality": "Bangladesh",
+    "pic_url": "https://www.espncricinfo.com/cricketers/mustafizur-rahman-330902/photos"
+  },
+  {
+    "id": "player_004",
+    "name": "Mahmudullah Riyad",
+    "rating": 84,
+    "batting_hand": "Right",
+    "role": "All-rounder",
+    "price": 1700000,
+    "nationality": "Bangladesh",
+    "pic_url": "https://ebiographyworld.com/mahmudullah-riyad/"
+  },
+  {
+    "id": "player_005",
+    "name": "Mushfiqur Rahim",
+    "rating": 82,
+    "batting_hand": "Right",
+    "role": "Batsman",
+    "price": 1600000,
+    "nationality": "Bangladesh",
+    "pic_url": "https://www.espncricinfo.com/cricketers/mushfiqur-rahim-56029/photos"
+  },
+  {
+    "id": "player_006",
+    "name": "Rashid Khan",
+    "rating": 91,
+    "batting_hand": "Right",
+    "role": "Bowler",
+    "price": 2200000,
+    "nationality": "Afghanistan",
+    "pic_url": "https://www.espncricinfo.com/cricketers/rashid-khan-793463/photos"
+  },
+  {
+    "id": "player_007",
+    "name": "Chris Gayle",
+    "rating": 85,
+    "batting_hand": "Left",
+    "role": "Batsman",
+    "price": 2500000,
+    "nationality": "West Indies",
+    "pic_url": "https://www.espncricinfo.com/cricketers/chris-gayle-51880/photos"
+  },
+  {
+    "id": "player_008",
+    "name": "Dwayne Bravo",
+    "rating": 89,
+    "batting_hand": "Right",
+    "role": "All-rounder",
+    "price": 2300000,
+    "nationality": "West Indies",
+    "pic_url": "https://www.espncricinfo.com/cricketers/dwayne-bravo-51439/photos"
+  },
+  {
+    "id": "player_009",
+    "name": "Sunil Narine",
+    "rating": 86,
+    "batting_hand": "Right",
+    "role": "Bowler",
+    "price": 2100000,
+    "nationality": "West Indies",
+    "pic_url": "https://www.espncricinfo.com/cricketers/sunil-narine-52234/photos"
+  },
+  {
+    "id": "player_010",
+    "name": "Andre Russell",
+    "rating": 87,
+    "batting_hand": "Right",
+    "role": "All-rounder",
+    "price": 2400000,
+    "nationality": "West Indies",
+    "pic_url": "https://www.espncricinfo.com/cricketers/andre-russell-55180/photos"
+  },
+  {
+    "id": "player_011",
+    "name": "David Warner",
+    "rating": 90,
+    "batting_hand": "Left",
+    "role": "Batsman",
+    "price": 2500000,
+    "nationality": "Australia",
+    "pic_url": "https://www.espncricinfo.com/cricketers/david-warner-818/photos"
+  },
+  {
+    "id": "player_012",
+    "name": "Steve Smith",
+    "rating": 92,
+    "batting_hand": "Right",
+    "role": "Batsman",
+    "price": 2700000,
+    "nationality": "Australia",
+    "pic_url": "https://www.espncricinfo.com/cricketers/steve-smith-2537/photos"
+  },
+  {
+    "id": "player_013",
+    "name": "Mitchell Starc",
+    "rating": 85,
+    "batting_hand": "Left",
+    "role": "Bowler",
+    "price": 2000000,
+    "nationality": "Australia",
+    "pic_url": "https://www.espncricinfo.com/cricketers/mitchell-starc-2586/photos"
+  },
+  {
+    "id": "player_014",
+    "name": "Glenn Maxwell",
+    "rating": 88,
+    "batting_hand": "Right",
+    "role": "All-rounder",
+    "price": 2100000,
+    "nationality": "Australia",
+    "pic_url": "https://www.espncricinfo.com/cricketers/glenn-maxwell-2582/photos"
+  },
+  {
+    "id": "player_015",
+    "name": "Pat Cummins",
+    "rating": 89,
+    "batting_hand": "Right",
+    "role": "Bowler",
+    "price": 2200000,
+    "nationality": "Australia",
+    "pic_url": "https://www.espncricinfo.com/cricketers/pat-cummins-2592/photos"
+  },
+  {
+    "id": "player_016",
+    "name": "Shaheen Shah Afridi",
+    "rating": 90,
+    "batting_hand": "Left",
+    "role": "Bowler",
+    "price": 2400000,
+    "nationality": "Pakistan",
+    "pic_url": "https://www.espncricinfo.com/cricketers/shaheen-shah-afridi-1062/photos"
+  },
+  {
+    "id": "player_017",
+    "name": "Babar Azam",
+    "rating": 91,
+    "batting_hand": "Right",
+    "role": "Batsman",
+    "price": 2500000,
+    "nationality": "Pakistan",
+    "pic_url": "https://www.espncricinfo.com/cricketers/babar-azam-1063/photos"
+  },
+  {
+    "id": "player_018",
+    "name": "Fakhar Zaman",
+    "rating": 84,
+    "batting_hand": "Left",
+    "role": "Batsman",
+    "price": 1700000,
+    "nationality": "Pakistan",
+    "pic_url": "https://www.espncricinfo.com/cricketers/fakhar-zaman-1064/photos"
+  },
+  {
+    "id": "player_019",
+    "name": "Shadab Khan",
+    "rating": 83,
+    "batting_hand": "Right",
+    "role": "All-rounder",
+    "price": 1600000,
+    "nationality": "Pakistan",
+    "pic_url": "https://www.espncricinfo.com/cricketers/shadab-khan-1065/photos"
+  },
+  {
+    "id": "player_020",
+    "name": "Mohammad Amir",
+    "rating": 87,
+    "batting_hand": "Left",
+    "role": "Bowler",
+    "price": 1900000,
+    "nationality": "Pakistan",
+    "pic_url": "https://www.espncricinfo.com/cricketers/mohammad-amir-1066/photos"
+  },
+  {
+    "id": "player_021",
+    "name": "Kieron Pollard",
+    "rating": 88,
+    "batting_hand": "Right",
+    "role": "All-rounder",
+    "price": 2000000,
+    "nationality": "West Indies",
+    "pic_url": "https://www.espncricinfo.com/cricketers/kieron-pollard-51438/photos"
+  },
+  {
+    "id": "player_022",
+    "name": "Dinesh Karthik",
+    "rating": 84,
+    "batting_hand": "Right",
+    "role": "Batsman",
+    "price": 1800000,
+    "nationality": "India",
+    "pic_url": "https://www.espncricinfo.com/cricketers/dinesh-karthik-2531/photos"
+  },
+  {
+    "id": "player_023",
+    "name": "Hardik Pandya",
+    "rating": 90,
+    "batting_hand": "Right",
+    "role": "All-rounder",
+    "price": 2300000,
+    "nationality": "India",
+    "pic_url": "https://www.espncricinfo.com/cricketers/hardik-pandya-2532/photos"
+  }]
+ 
