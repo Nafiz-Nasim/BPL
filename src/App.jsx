@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import Nav from '../components/layout/Nav'
 import AvailablePlayer from '../components/modules/AvailablePlayer';
 import SelectedPlayers from '../components/modules/SelectedPlayers';
-
+ import { ToastContainer, toast } from 'react-toastify';
 
 
 const fetchplayers=async () => {
@@ -16,7 +16,17 @@ const players=fetchplayers();
 function App() {
  
   const [available,setavailable]=useState(true);
- const [coin,setcoin]=useState(9000000)
+ const [coin,setcoin]=useState(900000000);
+ const [selectedplayers,setselectedplayers]=useState([]);
+
+ const deleteplayers=(deleteinfo)=>{
+console.log(deleteinfo);
+const filterdata=selectedplayers.filter(allplayers=> allplayers.id!== deleteinfo.id)
+setcoin(coin+deleteinfo.price)
+setselectedplayers(filterdata)
+
+
+ }
 
   return (
     <>
@@ -39,7 +49,7 @@ function App() {
 <div className="available flex items-center justify-between mt-10">
   <div className="text">
 <h3>
-  {available?"  Available Players":"Selected Player (4/6)"}
+  {available?"  Available Players":`Selected Player (${selectedplayers.length}/6)`}
   
 
   
@@ -49,7 +59,7 @@ function App() {
   </div>
   <div className="buttons    ">
     <button className={ ` ${available ?"bg-amber-300" : " " } px-8 py-2 rounded-l-2xl `} onClick={()=>{ setavailable(true)}}>Available</button>
-    <button className={ ` ${available ?"" : " bg-amber-300" } px-8 py-2 rounded-r-2xl `} onClick={()=>{ setavailable(false)}}>Selected (0)</button>
+    <button className={ ` ${available ?"" : " bg-amber-300" } px-8 py-2 rounded-r-2xl `} onClick={()=>{ setavailable(false)}}>Selected ({selectedplayers.length})</button>
   </div>
 
 
@@ -58,12 +68,12 @@ function App() {
 
 
 { available?
-<Suspense>
-<AvailablePlayer  players={players} setcoin={setcoin} coin={coin} ></AvailablePlayer>
+<Suspense fallback={<p>........................................Loading Data.........................................................</p>} >
+<AvailablePlayer  players={players} setcoin={setcoin} coin={coin} selectedplayers={selectedplayers} setselectedplayers={setselectedplayers} ></AvailablePlayer>
 </Suspense>
 
 
-: <SelectedPlayers></SelectedPlayers> 
+: <SelectedPlayers deleteplayers={deleteplayers} selectedplayers={selectedplayers}></SelectedPlayers> 
 
 
 }
@@ -72,7 +82,7 @@ function App() {
 
     </section>
  
-
+   <ToastContainer />
     </>
   )
 }
